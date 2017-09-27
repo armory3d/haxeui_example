@@ -1,0 +1,9 @@
+[submodule "Libraries/hscript"]
+	path = Libraries/hscript
+	url = https://github.com/HaxeFoundation/hscript
+[submodule "Libraries/haxeui-kha"]
+	path = Libraries/haxeui-kha
+	url = https://github.com/haxeui/haxeui-kha
+[submodule "Libraries/haxeui-core"]
+	path = Libraries/haxeui-core
+	url = https://github.com/haxeui/haxeui-core

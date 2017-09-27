@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox id="main">
+    <style source="./css/dark.css" />
+
+    <label text="Check" style="font-size:16px; color: #888888;" />
+    <hbox>
+        <checkbox id="checkA" text="A" />
+        <checkbox id="checkB" text="B" />
+        <checkbox id="checkC" text="C" selected="true" />
+    </hbox>
+
+    <hbox style="padding-top:15px">
+        <button id="helloButton" text="Hello" />
+    </hbox>
+    
+</vbox>
