@@ -16,7 +16,10 @@ class MyTrait extends armory.Trait {
 		super();
 
 		notifyOnInit(function() {
+
 			iron.data.Data.getFont('arial.ttf', function(font:kha.Font) {
+				kha.Assets.fonts.arial = font;
+				
 				Toolkit.init();
 				_main = ComponentMacros.buildComponent("../../ui/main.xml");
 				Screen.instance.addComponent(_main);
