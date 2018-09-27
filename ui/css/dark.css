@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-.checkbox {
+.checkbox, .optionbox, .label {
   color: #C6C6C8;
 }
 
@@ -15,7 +15,6 @@
   background-color: #4B4E53;
   background-color-end: #37383C;
   color: #C6C6C8;
-  padding
 }
 
 .button:hover {

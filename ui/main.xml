@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vbox id="main">
+<vbox id="main" left="50" top="50">
     <style source="./css/dark.css" />
 
-    <label text="Check" style="font-size:16px; color: #888888;" />
+    <label text="Check" style="font-size:16px;" />
     <hbox>
         <checkbox id="checkA" text="A" />
         <checkbox id="checkB" text="B" />
@@ -12,5 +12,20 @@
     <hbox style="padding-top:15px">
         <button id="helloButton" text="Hello" />
     </hbox>
-    
+
+    <label text="Option" style="font-size:16px;" />
+    <hbox>
+        <optionbox id="optionA" text="A" selected="true" />
+        <optionbox id="optionB" text="B" />
+        <optionbox id="optionC" text="C" />
+    </hbox>
+
+    <dropdown text="Dropdown" width="110">
+        <data>
+            <item value="Item 1" />
+            <item value="Item 2" />
+            <item value="Item 3" />
+        </data>
+    </dropdown>
+
 </vbox>
