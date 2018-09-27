@@ -7,7 +7,7 @@ import haxe.ui.core.Screen;
 import haxe.ui.macros.ComponentMacros;
 import haxe.ui.core.UIEvent;
 
-class MyTrait extends armory.Trait {
+class MyTrait extends iron.Trait {
 
 	static var _main:Component;
 	var ready = false;
