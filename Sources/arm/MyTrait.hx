@@ -24,7 +24,7 @@ class MyTrait extends iron.Trait {
 				_main = ComponentMacros.buildComponent("../../ui/main.xml");
 				Screen.instance.addComponent(_main);
 
-				var button = _main.findComponent("helloButton", null, true);
+				var button:Component = _main.findComponent("helloButton", null, true);
 				button.onClick = function(e:UIEvent) {
 					trace("World!");
 				}
